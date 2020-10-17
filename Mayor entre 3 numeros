@@ -1,0 +1,38 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   int n1,n2,n3;
+   cout<<"Escribe el primer numero:"<<endl;
+   cin>>n1;
+   cout<<"Escribe el segundo numero:"<<endl;
+   cin>>n2;
+   cout<<"Escribe el tercer numero:"<<endl;
+   cin>>n3;
+   if (n1>n2&&n1>n3){
+    cout<<"El numero mayor es:"<<n1<<endl;
+   }
+   else if (n2>n1&&n2>n3){
+    cout<<"El numero mayor es:"<<n2<<endl;
+   }
+   else if (n3>n1&&n3>n2){
+    cout<<"El numero mayor es:"<<n3<<endl;
+   }
+   else if(n1>n2&&n1==n3){
+    cout<<"El numero mayor es:"<<n1<<endl;
+   }
+   else if(n1>n3&&n1==n2){
+    cout<<"El numero mayor es:"<<n1<<endl;
+   }
+   else if(n2>n1&&n2==n3){
+    cout<<"El numero mayor es:"<<n2<<endl;
+   }
+
+   else{
+    cout<<"Los tres numero son iguales"<<endl;
+   }
+   return 0;
+}
+
