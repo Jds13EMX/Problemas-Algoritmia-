@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int c1,c2,c3;
+  cout<<"Anota la primera calificacion:"<<endl;
+   cin>>c1;
+   cout<<"Anota la segunda calificacion:"<<endl;
+   cin>>c2;
+   cout<<"Anota la tercera calificacion:"<<endl;
+   cin>>c3;
+   int promedio=c1+c2+c3/3;
+   if(promedio>=6)
+   {
+    cout<<"Usted aprobo el semestre es un crack"<<endl;
+   }
+   else{
+    cout<<"Usted reprobo UnU"<<endl;
+   }
+    return 0;
+
+}
